@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://demo.domainport.in/arun/shirt_design_3d/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>three.js webgl - loaders - OBJ MTL loader</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				margin: 0px;
+				overflow: hidden;
+			}
+			#header{
+				position:relative;
+				font-family:Arial, Helvetica, sans-serif;
+				color:#09C;
+				z-index:30;
+			}
+			#colorSel{
+				position:relative;
+				width:200px;
+				height:600px;
+				z-index:20;
+				padding:10px;
+			}
+			.colorThumb{
+				width:30px;
+				height:30px;
+				border:thin 1px solid;
+				background-color:#03C;
+				float:left;
+				margin:1px;
+			}
+		</style>
+	</head>
+
+	<body>
+<div id="freewha">
+<table style="width: 1280px; height: 67px; border: 2px solid #CCCCCC; background-color: #FFFFFF; margin-left: auto; margin-right: auto; border-collapse: collapse; border-spacing: 0;">
+<tr>
+	<td style="width: 67px; vertical-align: top; background-color: #FFFFFF; height: 67px;"><a href="http://www.freewebhostingarea.com" target="_blank"><img alt="Free Hosting" src="http://doms.freewebhostingarea.com/a/fwhalogo67x67.gif" style="float: left; height: 67px; width: 67px; border-width: 0px"></a></td>
+	<td style="width: 460px; vertical-align: top; background-color: #CCCCCC; height: 67px;">
+		<p style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 13px; margin-left: 6px; margin-top: 11px; margin-bottom: 0px;">
+		<a href="http://www.freewebhostingarea.com" style="text-decoration: none" target="_blank">
+		<span style="color: #000000"><strong>Free Web Hosting</strong></span></a> <span style="color: #000000">with PHP, MySQL, Apache, FTP and more.</span><br>
+		<span style="color: #000000">Get your</span> <a href="http://www.freewebhostingarea.com" style="text-decoration: none" target="_blank">
+		<strong><span style="color: #000000">Free SubDOMAIN</span></strong></a> <span style="color: #000000">you.6te.net or you.eu5.org or...</span><br>
+		<span style="color: #000000">Create your account NOW at</span> <a href="http://www.freewebhostingarea.com" style="text-decoration: none" target="_blank">
+		<span style="color: #3333FF">http://www.freewebhostingarea.com</span></a>.</p>
+	</td>
+	<td style="width: 67px; vertical-align: top; background-color: #FFFFFF; height: 67px;"><a href="http://domains.protonhosting.com/" target="_blank"><img alt="Cheap Domains" src="http://doms.freewebhostingarea.com/a/fwhacheap67x67.gif" style="float: left; height: 67px; width: 67px; border-width: 0px"></a></td>
+	<td style="width: 125px; vertical-align: top; background-color: #FFFFFF; height: 67px;">
+		<p style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 13px; margin-left: 6px; margin-top: 11px; margin-bottom: 0px;">
+		<a href="http://domains.protonhosting.com/" style="text-decoration: none" target="_blank">
+		<span style="color: #000000"><strong>Cheap Domains</strong></span></a><br>
+		<a href="http://domains.protonhosting.com" style="text-decoration: none" target="_blank">
+		<span style="color: #000000">starting at $2.99/year</span></a></p>
+	</td>
+	<td style="background-color: #CCCCCC; height: 67px;">
+		<div id="MarketGidScriptRootC50006"><script type="text/javascript" src="http://doms.freewebhostingarea.com/a/fwhamgd.js"></script></div>
+	</td>
+</tr>
+</table>
+<img src="http://user99.freewebhostingarea.com/i/allchk.gif" alt="check">
+</div>
+
+    	<div id="header"><h2>Shirt Designer 3d</h2></div>
+    	<div id="colorSel">
+        	Select Color<br>
+            <div>
+            </div>
+        <div class="colorThumb" style="color: rgb(38, 63, 143); background-color: rgb(38, 63, 143);"></div><div class="colorThumb" style="color: rgb(0, 176, 244); background-color: rgb(0, 176, 244);"></div><div class="colorThumb" style="color: rgb(0, 162, 194); background-color: rgb(0, 162, 194);"></div><div class="colorThumb" style="color: rgb(81, 45, 23); background-color: rgb(81, 45, 23);"></div><div class="colorThumb" style="color: rgb(2, 110, 76); background-color: rgb(2, 110, 76);"></div><div class="colorThumb" style="color: rgb(0, 136, 98); background-color: rgb(0, 136, 98);"></div><div class="colorThumb" style="color: rgb(74, 208, 49); background-color: rgb(74, 208, 49);"></div><div class="colorThumb" style="color: rgb(193, 196, 201); background-color: rgb(193, 196, 201);"></div><div class="colorThumb" style="color: rgb(255, 136, 65); background-color: rgb(255, 136, 65);"></div><div class="colorThumb" style="color: rgb(106, 34, 134); background-color: rgb(106, 34, 134);"></div><div class="colorThumb" style="color: rgb(107, 29, 81); background-color: rgb(107, 29, 81);"></div><div class="colorThumb" style="color: rgb(177, 37, 146); background-color: rgb(177, 37, 146);"></div><div class="colorThumb" style="color: rgb(154, 135, 199); background-color: rgb(154, 135, 199);"></div><div class="colorThumb" style="color: rgb(255, 162, 191); background-color: rgb(255, 162, 191);"></div><div class="colorThumb" style="color: rgb(253, 62, 157); background-color: rgb(253, 62, 157);"></div><div class="colorThumb" style="color: rgb(239, 45, 53); background-color: rgb(239, 45, 53);"></div><div class="colorThumb" style="color: rgb(255, 255, 255); background-color: rgb(255, 255, 255);"></div><div class="colorThumb" style="color: rgb(230, 253, 245); background-color: rgb(230, 253, 245);"></div><div class="colorThumb" style="color: rgb(255, 255, 0); background-color: rgb(255, 255, 0);"></div><div class="colorThumb" style="color: rgb(58, 58, 58); background-color: rgb(58, 58, 58);"></div></div>
+
+		<script src="./js/three.min.js"></script>
+        <script src="./js/OBJLoader.js"></script>
+		<script src="./js/designer.js"></script><div style="position: absolute; top: 0px;"><canvas width="1295" height="637" style="width: 1295px; height: 637px;"></canvas></div>
+        
+        <script>
+		//color selectoe
+			var colors  = ['#263f8f','#00b0f4','#00a2c2',
+			'#512d17','#026e4c','#008862','#4ad031','#c1c4c9','#ff8841','#6a2286','#6b1d51','#b12592','#9a87c7',
+			'#ffa2bf','#fd3e9d','#ef2d35','#ffffff','#e6fdf5','#ffff00','#3a3a3a'];
+			for(var i=0;i<colors.length;i++){
+				var ct = document.createElement('div');
+				ct.className = "colorThumb";
+				ct.style.backgroundColor = ct.style.color = colors[i];
+				document.getElementById('colorSel').appendChild(ct);
+			}
+			document.getElementById('colorSel').onclick = function(event){
+				seColor(event.target); //  to designer API
+			}
+		</script>
+
+	
+
+</body></html>
